@@ -33,6 +33,9 @@ The goal is to become better at answering:
 
 "How do I approach this problem?"
 
+
+```text
+
 🗺️ DSA Roadmap
                     ┌─────────────────┐
                     │   Programming   │
@@ -77,6 +80,9 @@ The goal is to become better at answering:
                     ┌──────────────────────┐
                     │ Dynamic Programming  │
                     └──────────────────────┘
+
+```
+
 
 📊 Progress
 
