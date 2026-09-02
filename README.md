@@ -1,50 +1,55 @@
-Bilkul. Isko simple “list of 120 questions” jaisa nahi, balki proper DSA learning repository README jaisa bana dete hain — roadmap, progress tracker, categories, difficulty, goals, and all 120 problems included.
+Yes — I’ll give you the raw Markdown content so you can copy-paste it directly into README.md.
 
-Writing
-🧠 DSA Practice
+# 🧠 DSA Practice
 
-A structured journey from basic logic to advanced problem solving.
+> **A structured journey from basic logic to advanced problem solving.**
 
-Welcome to DSA Practice — a continuously growing collection of Data Structures & Algorithms problems, solutions, patterns, and implementations.
+Welcome to **DSA Practice** — a continuously growing collection of Data Structures & Algorithms problems, solutions, patterns, and implementations.
 
-This repository is built with one simple philosophy:
+This repository follows one simple philosophy:
 
-Don't just solve problems. Understand the pattern behind them.
+> **Don't just solve problems. Understand the pattern behind them.**
 
 From reversing your first string to implementing graph algorithms and dynamic programming, this repository documents the journey step by step.
 
-🎯 What This Repository Is About
+---
+
+## 🎯 What This Repository Is About
 
 This repository focuses on building strong foundations in:
 
-🧩 Problem Solving
-🔢 Mathematics & Number Theory
-📦 Arrays & Hashing
-🔤 Strings
-🔍 Searching
-🔃 Sorting
-♻️ Recursion
-📚 Stack & Queue
-🔗 Linked Lists
-🌳 Trees
-🕸️ Graphs
-🧠 Dynamic Programming
+- 🧩 Problem Solving
+- 🔢 Mathematics & Number Theory
+- 📦 Arrays & Hashing
+- 🔤 Strings
+- 🔍 Searching
+- 🔃 Sorting
+- ♻️ Recursion
+- 📚 Stack & Queue
+- 🔗 Linked Lists
+- 🌳 Trees
+- 🕸️ Graphs
+- 🧠 Dynamic Programming
 
 The goal isn't to finish 120 problems as quickly as possible.
 
 The goal is to become better at answering:
 
-"How do I approach this problem?"
+> **"How do I approach this problem?"**
 
-🗺️ DSA Roadmap
+---
+
+# 🗺️ DSA Roadmap
+
+```text
                     ┌─────────────────┐
                     │   Programming   │
-                    │    Basics       │
+                    │     Basics      │
                     └────────┬────────┘
                              │
                              ▼
                     ┌─────────────────┐
-                    │ Arrays & Strings│
+                    │ Arrays & Strings │
                     └────────┬────────┘
                              │
                  ┌───────────┴───────────┐
@@ -62,7 +67,7 @@ The goal is to become better at answering:
                  ┌───────────┴───────────┐
                  ▼                       ▼
           ┌─────────────┐         ┌─────────────┐
-          │Stack & Queue│         │Linked List  │
+          │Stack & Queue│         │ Linked List │
           └──────┬──────┘         └──────┬──────┘
                  │                       │
                  └───────────┬───────────┘
@@ -78,8 +83,7 @@ The goal is to become better at answering:
                              │
                              ▼
                     ┌─────────────────┐
-                    │ Dynamic Program │
-                    │      ming       │
+                    │Dynamic Programming│
                     └─────────────────┘
 
 📊 Progress
@@ -260,9 +264,6 @@ The final stretch: hierarchical data, relationships, and optimization.
 119	House Robber	⬜
 120	0/1 Knapsack	⬜
 📁 Repository Structure
-
-The repository follows a simple structure so every problem remains easy to find:
-
 dsa_practice/
 │
 ├── 01_reverse_string/
@@ -306,11 +307,12 @@ Time Complexity
 Space Complexity
 
 
-A typical problem README can contain:
+Example:
 
 # Reverse a String
 
 ## Problem
+
 Reverse the given string.
 
 ## Example
@@ -322,7 +324,8 @@ Output:
 olleh
 
 ## Approach
-Use two pointers / slicing / iteration.
+
+Use two pointers, slicing, or iteration.
 
 ## Complexity
 
@@ -336,16 +339,13 @@ O(log n)	Logarithmic	Binary Search
 O(n)	Linear	Linear Search
 O(n log n)	Linearithmic	Merge Sort
 O(n²)	Quadratic	Bubble Sort
-O(2ⁿ)	Exponential	Subsets
+O(2ⁿ)	Exponential	Subsequences
 O(n!)	Factorial	Permutations
 
 Rule of thumb:
 First make it work → then make it better → then understand why it's better.
 
 🧠 Patterns I'm Building
-
-As this repository grows, the focus will gradually shift from individual questions to reusable patterns:
-
 Brute Force
     ↓
 Optimization
@@ -385,7 +385,7 @@ Linked List    ░░░░░░░░░░  0%
 Trees/Graphs   ░░░░░░░░░░  0%
 DP             ░░░░░░░░░░  0%
 
-Milestones
+🏆 Milestones
  🥉 First 10 problems
  🥈 First 25 problems
  🥇 First 50 problems
@@ -404,7 +404,7 @@ Solutions may be implemented in:
 The primary goal is problem-solving, not the programming language.
 
 🎓 Learning Philosophy
-01 — Understand before memorizing
+01 — Understand Before Memorizing
 
 Don't memorize solutions.
 
@@ -412,11 +412,11 @@ Understand:
 
 Why does this work?
 
-02 — Start with brute force
+02 — Start With Brute Force
 
 A slow correct solution is better than a fast solution you don't understand.
 
-03 — Optimize consciously
+03 — Optimize Consciously
 
 Ask:
 
@@ -426,11 +426,11 @@ Then:
 
 Can I reduce the space complexity?
 
-04 — Learn patterns
+04 — Learn Patterns
 
 If you solve ten problems using the same idea, you've learned something more valuable than ten isolated solutions.
 
-05 — Keep moving
+05 — Keep Moving
 
 Some problems will take 10 minutes.
 
@@ -473,7 +473,7 @@ Advanced Dynamic Programming
 Bit Manipulation
 Advanced Binary Search
 Competitive Programming
-⭐ If You're Following Along
+⭐ Keep Going
 
 Don't rush through the list.
 
