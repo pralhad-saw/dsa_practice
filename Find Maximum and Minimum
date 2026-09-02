@@ -1,1 +1,21 @@
 
+def find_max_min(numbers):
+    maximum = numbers[0]
+    minimum = numbers[0]
+
+    for num in numbers[1:]:
+        if num > maximum:
+            maximum = num
+
+        if num < minimum:
+            minimum = num
+
+    return maximum, minimum
+
+
+numbers = [12, 45, 7, 89, 23, 4]
+
+maximum, minimum = find_max_min(numbers)
+
+print("Maximum:", maximum)
+print("Minimum:", minimum)
