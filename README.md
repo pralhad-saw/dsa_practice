@@ -254,6 +254,7 @@ The final stretch: hierarchical data, relationships, and optimization.
  119. House Robber
  120. 0/1 Knapsack
 📁 Repository Structure
+``` text
 dsa_practice/
 │
 ├── 01_reverse_string/
@@ -278,7 +279,7 @@ dsa_practice/
     ├── README.md
     └── solution.py
 
-
+```
 Each problem has its own directory containing:
 
 README.md — problem explanation
@@ -286,7 +287,7 @@ solution.py — implementation
 🧪 Problem Format
 
 Every solution should aim to follow the same learning structure:
-
+```text
 Problem
    ↓
 Understanding
@@ -300,7 +301,7 @@ Example
 Time Complexity
    ↓
 Space Complexity
-
+```
 Example
 # Reverse a String
 
@@ -358,6 +359,8 @@ Example: Generating Permutations
 
 First make it work → then make it better → then understand why it's better.
 
+
+```text
 🧠 Patterns I'm Building
 Brute Force
     ↓
@@ -384,13 +387,14 @@ Tree Traversals
 BFS / DFS
     ↓
 Dynamic Programming
-
+```
 
 These patterns are more important than memorizing individual solutions.
 
 📈 Personal Progress Tracker
-Overall
 
+Overall
+```text
 Problems Solved: 0 / 120
 
 Overall        ░░░░░░░░░░  0%
@@ -405,7 +409,7 @@ Stack & Queue  ░░░░░░░░░░  0%
 Linked List    ░░░░░░░░░░  0%
 Trees/Graphs   ░░░░░░░░░░  0%
 DP             ░░░░░░░░░░  0%
-
+```
 
 Update the progress bars as problems are completed.
 
@@ -524,6 +528,8 @@ The 120 problems are only the beginning.
 
 Don't rush through the list.
 
+
+```text
 Pick a problem.
        ↓
 Think.
@@ -539,6 +545,7 @@ Optimize.
 Understand.
        ↓
 Move to the next one.
+```
 
 
 Consistency beats intensity.
