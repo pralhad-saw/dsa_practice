@@ -89,6 +89,8 @@ The goal is to become better at answering:
 120 Problems · Multiple Patterns · One Continuous Journey
 
 Current Status
+
+```text
 🟢 Beginner & Fundamentals — Problems 01–25 — ⬜
 🟡 Arrays & Hashing — Problems 26–45 — ⬜
 🟠 Sorting & Searching — Problems 46–60 — ⬜
@@ -97,10 +99,16 @@ Current Status
 🔴 Stack & Queue — Problems 86–95 — ⬜
 🟤 Linked List — Problems 96–105 — ⬜
 🌳 Trees, Graphs & DP — Problems 106–120 — ⬜
+```
+
 Status Legend
+
+```text
 ⬜ Not Started
 🟨 In Progress
 ✅ Completed
+```
+
 🟢 01 — Beginner & Fundamentals
 
 Build the foundation before building the skyscraper.
