@@ -83,9 +83,10 @@ The goal is to become better at answering:
                     ┌─────────────────┐
                     │Dynamic Programming│
                     └─────────────────┘
-
 ```
-📊 Progress
+
+
+# 📊 Progress
 
 120 Problems • Multiple Patterns • One Continuous Journey
 
