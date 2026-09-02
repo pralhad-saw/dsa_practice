@@ -1,5 +1,3 @@
-Yes — I’ll give you the raw Markdown content so you can copy-paste it directly into README.md.
-
 # 🧠 DSA Practice
 
 > **A structured journey from basic logic to advanced problem solving.**
