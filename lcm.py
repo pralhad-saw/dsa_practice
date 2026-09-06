@@ -9,6 +9,8 @@ print(calculate_lcm(12, 18))  # Output: 36
 
 
 # #method 2 using math.lcm()
+
+# Python 3.9+
 # import math
 
 # # For two numbers
