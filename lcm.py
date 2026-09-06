@@ -1,5 +1,10 @@
 # method 1--- calculating using a maths formula to lcm
 
+# // Least Common Multiple (LCM) formula using Greatest Common Divisor (GCD):
+# // LCM(a, b) = (|a * b|) / GCD(a, b)
+# // To prevent integer overflow in code, divide first: (a / GCD(a, b)) * b
+
+
 #Python 3.5+
 import math
 
