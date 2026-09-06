@@ -1,4 +1,4 @@
-
+#gcd is also called hcf
 def find_gcd_recursive(a, b):
     if b == 0:
         return a
