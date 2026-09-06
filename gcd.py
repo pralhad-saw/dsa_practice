@@ -1,7 +1,7 @@
 import math
 
 # Define your numbers
-num1 = 60 
+num1 = 60 #here u can input any number of your choice llike num1 =int(input())
 num2 = 48
 
 # Calculate GCD
