@@ -9,3 +9,4 @@ result = math.gcd(num1, num2)
 
 print(f"The GCD of {num1} and {num2} is: {result}")
 # Output: The GCD of 60 and 48 is: 12
+#gcd is also called hcf
