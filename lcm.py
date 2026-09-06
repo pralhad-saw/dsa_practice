@@ -1,4 +1,6 @@
 # method 1--- calculating using a maths formula to lcm
+
+#Python 3.5+
 import math
 
 def calculate_lcm(a, b):
