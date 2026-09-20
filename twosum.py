@@ -1,5 +1,7 @@
 def two_sum(arr,num):
   seen={}
+  for i,n in enumerate(num):
+    
   return -1
 
 
