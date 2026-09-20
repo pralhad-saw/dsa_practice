@@ -8,6 +8,7 @@ def two_sum(arr: list[int],target:int):
     
   return -1
 
+//done
 
 arr = [2,9,7,4,8,3,0,1,12,45,13,27,]
 #num = int(input())
