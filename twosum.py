@@ -1,7 +1,7 @@
-def two_sum(arr,num):
+def two_sum(arr,target:int):
   seen={}
   for i,n in enumerate(num):
-    required= target-num
+    required= target-n
     if required in seen:
       return [seen[required],i]
     seen[n] = i
