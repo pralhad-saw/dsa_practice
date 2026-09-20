@@ -1,6 +1,6 @@
 def two_sum(arr,target:int):
   seen={}
-  for i,n in enumerate(num):
+  for i,n in enumerate(arr):
     required= target-n
     if required in seen:
       return [seen[required],i]
