@@ -1,5 +1,5 @@
 def two_sum(arr,num):
-
+  seen={}
   return -1
 
 
