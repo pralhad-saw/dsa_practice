@@ -3,6 +3,7 @@ def two_sum(arr,num):
   for i,n in enumerate(num):
     required= target-num
     if required in seen:
+      return [seen[required],i]
     
   return -1
 
