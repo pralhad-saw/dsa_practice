@@ -1,4 +1,4 @@
-def two_sum(arr,target:int):
+def two_sum(arr: list[int],target:int):
   seen={}
   for i,n in enumerate(arr):
     required= target-n
