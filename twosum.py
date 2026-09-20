@@ -4,6 +4,7 @@ def two_sum(arr,num):
     required= target-num
     if required in seen:
       return [seen[required],i]
+    seem[n] = i
     
   return -1
 
