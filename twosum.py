@@ -1,6 +1,7 @@
 def two_sum(arr,num):
   seen={}
   for i,n in enumerate(num):
+    required= target-num
     
   return -1
 
