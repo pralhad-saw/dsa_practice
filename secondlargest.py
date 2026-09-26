@@ -1,4 +1,4 @@
-
+  
 arr = list(map(int, input("Enter array elements: ").split()))
 
 unique_elements = list(set(arr))
