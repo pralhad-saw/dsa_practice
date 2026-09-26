@@ -1,7 +1,7 @@
 
 num = int(input("Enter a number: "))
 
-
+ 
 reverse = 0
 temp = abs(num)
 
