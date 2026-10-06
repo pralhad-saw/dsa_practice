@@ -49,3 +49,8 @@ if __name__ == "__main__":
     res = intersect(a, b)
 
     print(" ".join(map(str, res)))
+
+
+# 2. [Better Approach] Using Nested Loops and Hash Set - O(n × m) Time and O(n) Space
+
+
