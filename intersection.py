@@ -108,3 +108,5 @@ if __name__ == "__main__":
 
     res = intersect(a, b)
     print(" ".join(map(str, res)))
+
+# [Expected Approach 2] Using One Hash Set - O(n+m) Time and O(n) Space
