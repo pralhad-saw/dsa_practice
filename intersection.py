@@ -54,3 +54,28 @@ if __name__ == "__main__":
 # 2. [Better Approach] Using Nested Loops and Hash Set - O(n × m) Time and O(n) Space
 
 
+def intersect(a, b):
+    res = []
+    seen = {}
+
+    # Traverse through a[] and search every element
+    # a[i] in b[]
+    for i in range(len(a)):
+        for j in range(len(b)):
+
+            # If found, check if the element is already 
+            # in the result to avoid duplicates
+            if a[i] == b[j] and a[i] not in seen:
+                seen[a[i]] = 1
+                res.append(a[i])
+
+    return res
+
+if __name__ == "__main__":
+    a = [1, 2, 3, 2, 1]
+    b = [3, 2, 2, 3, 3, 2]
+
+    res = intersect(a, b)
+
+    for x in res:
+        print(x, end=" ")
