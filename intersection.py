@@ -20,3 +20,9 @@
 
 # 1 <= nums1.length, nums2.length <= 1000
 # 0 <= nums1[i], nums2[i] <= 1000
+
+
+4 approaches
+
+
+# 1. [Naive Approach] Using Triple Nested Loops - O(n × n × m) Time and O(1) Space
