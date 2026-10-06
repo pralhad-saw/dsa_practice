@@ -83,3 +83,28 @@ if __name__ == "__main__":
 
 # [Expected Approach 1] Using Two Hash Sets - O(n+m) Time and O(n) Space
 
+def intersect(a, b):
+  
+    # Put all elements of a[] in asSet
+    asSet = set(a)
+
+    rsSet = set()
+    res = []
+
+    # Traverse through b[]
+    for elem in b:
+      
+        # If the element is in 
+        # asSet and not yet in rsSet
+        if elem in asSet and elem not in rsSet:
+            rsSet.add(elem)
+            res.append(elem)
+
+    return res
+
+if __name__ == "__main__":
+    a = [1, 2, 3, 2, 1]
+    b = [3, 2, 2, 3, 3, 2]
+
+    res = intersect(a, b)
+    print(" ".join(map(str, res)))
