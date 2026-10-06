@@ -110,3 +110,30 @@ if __name__ == "__main__":
     print(" ".join(map(str, res)))
 
 # [Expected Approach 2] Using One Hash Set - O(n+m) Time and O(n) Space
+def intersect(a, b):
+  
+    # Put all elements of a[] in sa
+    sa = set(a)
+
+    res = []
+
+    # Traverse through b[]
+    for elem in b:
+      
+        # If the element is in sa
+        if elem in sa:
+            
+            # Add it to the result array
+            res.append(elem)
+            
+            # Erase it from sa to avoid duplicates
+            sa.remove(elem)
+
+    return res
+
+if __name__ == "__main__":
+    a = [1, 2, 3, 2, 1]
+    b = [3, 2, 2, 3, 3, 2]
+
+    res = intersect(a, b)
+    print(" ".join(map(str, res)))
