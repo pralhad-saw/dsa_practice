@@ -97,3 +97,31 @@ Big O:
 Time Complexity: O(n)
 
 Space Complexity: O(1)
+
+def remove0uterParentheses(s): res, count = [], 0
+
+#loop through each character
+
+for c in s:
+
+if c == "(":
+
+# skip outer opening bracket
+
+if count > 0:
+
+res.append(c)
+
+count += 1
+
+else:
+
+count = 1
+
+#skip outer closing bracket
+
+if count > 0:
+
+res.append(c)
+
+return "".join(res)
