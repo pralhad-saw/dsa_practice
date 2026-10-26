@@ -67,3 +67,33 @@ Time Complexity: O(n)
 
 Space Complexity: O(n)
 
+
+2.
+
+Use a Counter (Optimal ✅)
+
+Logic:
+
+Track depth with int count = 0
+
+For '(':
+
+If count > 0:
+
+append to result
+
+Increment count++
+
+For ')':
+
+Decrement count--
+
+If count > 0:
+
+append to result
+
+Big O:
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)
