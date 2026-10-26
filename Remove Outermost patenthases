@@ -25,3 +25,45 @@ Explanation:
   "()" + "()"
 · Strip outer parens: 
   "" + "" = ""
+
+Step 1: Clarify Requirements
+Can the input string be empty?
+
+No.
+
+Will the input string always be valid?
+
+Yes.
+
+It will only contain ‘(‘ or
+
+
+Step 2: Discuss Approaches
+1/ Use a Stack (Suboptimal ⚠️)
+
+Logic:
+
+Use a stack to track depth
+
+For '(':
+
+If stack not empty:
+
+append to result
+
+Push '(' to stack
+
+For ')':
+
+Pop from stack
+
+If stack not empty:
+
+append to result
+
+Big O:
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
