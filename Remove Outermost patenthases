@@ -1,1 +1,7 @@
-.
+Problem Overview
+Difficulty: Easy
+LeetCode Pattern: Stack
+
+A valid parentheses string s can be decomposed into primitive valid parentheses strings. A primitive string is non-empty and cannot be split into smaller valid parentheses strings.
+
+Return s after removing the outermost parentheses of every primitive string in its decomposition.
