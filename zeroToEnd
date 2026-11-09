@@ -14,3 +14,5 @@ def move_zeros_to_end(arr):
 
 # Example usage
 arr = [0, 1, 0, 3, 12]
+
+print("Move Zeros to End:", move_zeros_to_end(arr))
