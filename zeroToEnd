@@ -1,1 +1,14 @@
 # 1. Move Zeros to End
+def move_zeros_to_end(arr):
+    result = []
+    zero_count = 0
+
+    for num in arr:
+        if num == 0:
+            zero_count += 1
+        else:
+            result.append(num)
+
+    result.extend([0] * zero_count)
+    return result
+
