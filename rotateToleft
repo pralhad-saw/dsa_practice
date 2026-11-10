@@ -8,3 +8,4 @@ def rotate_array_left(arr, k):
 
 arr_to_rotate = [1, 2, 3, 4, 5]
 print("Rotate Array Left by 2:", rotate_array_left(arr_to_rotate, 2))
+
