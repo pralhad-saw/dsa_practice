@@ -1,0 +1,9 @@
+def rotate_array_right(arr, k):
+    if not arr:
+        return arr
+
+    k = k % len(arr)
+    return arr[-k:] + arr[:-k]
+
+arr_to_rotate = [1, 2, 3, 4, 5]
+print("Rotate Array Right by 2:", rotate_array_right(arr_to_rotate, 2))
