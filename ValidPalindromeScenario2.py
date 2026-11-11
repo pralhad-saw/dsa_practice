@@ -12,3 +12,27 @@ Input	Output	Reason
 
 Try solving it independently. Don't rush. Think about what should happen when s[left] != s[right].
 """
+
+def validPalindrome(s):
+
+    def check(left, right):
+      left, right = 0, len(s) - 1
+      while left < right:
+        if s[left] != s[right]:
+          return False
+        left+=1
+        right-=1
+      return True
+
+        # Normal palindrome checking
+
+    left, right = 0, len(s) - 1
+
+    while left < right:
+        if s[left] != s[right]:
+            return check(left,right-1) or check(left-1, right)
+
+        left += 1
+        right -= 1
+
+    return True
