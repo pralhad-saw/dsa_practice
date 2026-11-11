@@ -1,4 +1,4 @@
-nums = [1, 2, 3, 1]
+"""nums = [1, 2, 3, 1]
 Output: True
 
 nums = [1, 2, 3, 4]
@@ -14,3 +14,19 @@ Try solving it without nested loops.
 Explain why your approach is efficient.
 
 Tell me its time and space complexity.
+"""
+
+#solution- myself - hash set
+
+def solution(arr):
+  seen= set()
+  for x in arr:
+    if x in seen:
+      return True
+    seen.add(x)
+  return False
+
+"""
+Time	O(n)
+Space	O(n)
+"""
