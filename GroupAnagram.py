@@ -33,3 +33,5 @@ Write the complete Python function.
 Don't rush to see the solution. Try independently first."""
 
 
+"""my solution - no ai - no copy paste not even google for syntax
+we can sort each item and use that sorted item as a key for dictonary and at last just return dictionary as a lists"""
