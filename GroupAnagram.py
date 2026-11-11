@@ -47,3 +47,17 @@ def solution(strs):
     
 strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
 
+"""
+2. Complexity analysis
+Let:
+- n = number of strings
+- k = maximum length of a string
+Operation	Complexity
+Sort each string	O(k log k)
+Process all strings	O(n × k log k)
+Dictionary grouping	O(n) average, excluding key construction
+
+Overall:
+- Time: O(n × k log k)
+- Space: O(n × k) for storing grouped strings and keys.
+"""
