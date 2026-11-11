@@ -35,3 +35,15 @@ Don't rush to see the solution. Try independently first."""
 
 """my solution - no ai - no copy paste not even google for syntax
 we can sort each item and use that sorted item as a key for dictonary and at last just return dictionary as a lists"""
+
+def solution(strs):
+    freq = {}
+    for x in strs:
+        y = tuple(sorted(x))
+        if y not in freq:
+            freq[y]= []
+        freq[y].append(x)
+    return list(freq.values())
+    
+strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+
