@@ -16,7 +16,7 @@ Try solving it independently. Don't rush. Think about what should happen when s[
 def validPalindrome(s):
 
     def check(left, right):
-      left, right = 0, len(s) - 1
+      
       while left < right:
         if s[left] != s[right]:
           return False
@@ -30,9 +30,23 @@ def validPalindrome(s):
 
     while left < right:
         if s[left] != s[right]:
-            return check(left,right-1) or check(left-1, right)
+            return check(left,right-1) or check(left+1, right)
 
         left += 1
         right -= 1
 
     return True
+
+
+print(validPalindrome("abca"))  # True
+print(validPalindrome("abc"))   # False
+print(validPalindrome("aba"))   # True
+
+
+
+
+"""
+Complexity
+- Time: O(n)
+- Auxiliary space: O(1)
+"""
