@@ -24,3 +24,7 @@ def solution(strs):
 strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
 
 print(solution(strs))
+"""Complexity
+For n words, each of maximum length k:
+- Time: O(n × k), assuming a fixed 26-letter alphabet.
+- Space: O(n × 26), effectively O(n) for the fixed alphabet"""
