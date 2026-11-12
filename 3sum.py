@@ -23,3 +23,11 @@ def solution(nums):
                 right-=1
     return result
 print(solution(nums))
+
+# # complexity analysis
+# Sorting: O(n log n)
+# Outer loop: O(n)
+# Two-pointer traversal: O(n) per iteration
+# Overall time: O(n²)
+
+# space: o(1)
