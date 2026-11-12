@@ -44,4 +44,7 @@ print(solution(nums))
 #just in 4 minutes on manipulating 3sum problem solution 
 
 
-#
+#complexity analysis 
+
+#Time: O(n³)
+# space: O(1)
