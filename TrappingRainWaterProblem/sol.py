@@ -9,3 +9,7 @@ def solution(nums):
         if waterAtCurrentIndex>0:
              totalWater+=waterAtCurrentIndex
     return totalWater
+
+#  complexity
+# time
+# o(n2)
