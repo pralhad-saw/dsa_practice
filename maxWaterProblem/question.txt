@@ -7,6 +7,18 @@ Find two lines that together with the x-axis form a container, such that the con
 Return the maximum amount of water a container can store.
 Notice that you may not slant the container.
 
+Problem Explanation
+The problem is about finding the maximum amount of water a container can hold using two lines from a given array.
+
+You are given an array called height. Each number in the array represents the height of a vertical line at that position. To form a container, you pick any two lines from the array, and the x-axis (the horizontal line) acts as the base of the container.
+
+The width of the container is the distance between the two lines (the difference in their positions in the array), and the height of the container is the shorter of the two lines.
+
+Your task is to determine which two lines make the container that can hold the most water and return the amount of water it can hold.
+“Slant the container”, what does this mean?
+It means the container's sides (the two lines you choose) must remain vertical and parallel to the y-axis. You cannot tilt or angle the lines.
+
+Examples:
 
 Given:
 
@@ -16,3 +28,16 @@ Find two lines that, together with the x-axis, contain the most water.
 
 Expected answer:
 49
+
+Explanation:  The above vertical lines are represented by an array [1,8,6,2,5,4,8,3,7]. In this case, the maximum area of water (blue section) the container can contain is 49.
+
+Input: height = [1,1]
+Output: 1
+Explanation: The max area of water between the heights is 1.
+
+Constraints:
+
+Constraints:
+n == height.length
+2 <= n <= 10⁵
+0 <= height[i] <= 10⁴
