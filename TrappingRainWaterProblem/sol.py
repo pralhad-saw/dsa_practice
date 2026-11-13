@@ -1,12 +1,10 @@
-
 def solution(nums):
-  wateramount = 0
-  left=nums[0]
-  for right in range(1,len(nums)):
-    if ((right - left) <2) or nums[right]==0 or nums[right]<nums[right-1]:
-      continue
-    if nums[left] ==0:
-      left+=1
-    amount = min(nums[left],nums[right]) * (right-left)
-    wateramount+=amount
-  return wateramount
+    totalWater=0
+    for i in nums:
+        leftMax=max(nums[:i])
+        rightMax=max(nums[i:])
+        waterLevel=min(leftMax,rightMax)
+        waterAtCurrentIndex=waterLevel-height[i]
+        if waterAtCurrentIndex>0:
+             totalWater+=waterAtCurrentIndex
+    return totalWater
