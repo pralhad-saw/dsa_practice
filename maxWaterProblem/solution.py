@@ -8,3 +8,7 @@ def maxWater(arr):
     return res
 arr = [2, 1, 8, 6, 4, 6, 5, 5]
 print(maxWater(arr))
+
+# Complexity
+# - Time: O(n²)
+# - Space: O(1)
