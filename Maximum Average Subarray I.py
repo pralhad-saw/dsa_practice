@@ -10,3 +10,5 @@ def sumSubarray(nums,k):
      return max_sum/k
 nums=[1,0,4,5,6,7,8,9,0,3,2,1,0,4,5,7,2,9,2,1,1]
 print(sumSubarray(nums,3))
+# Time complexity: O(n)
+# Auxiliary space: O(1) for the rolling-window logic (the initial slice temporarily uses O(k)).
