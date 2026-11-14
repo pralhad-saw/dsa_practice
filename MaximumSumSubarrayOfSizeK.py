@@ -1,3 +1,6 @@
+# complexity analysis
+# Time - O(n)
+# Space - O(1)
 def sumSubarray(nums,k):
      i=len(nums)
      if k<=0 or k > i:
