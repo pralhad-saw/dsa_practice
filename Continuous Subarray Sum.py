@@ -11,13 +11,15 @@ def solution(nums,k):
 
 # prefix sum 
 def solution(nums,k):
- remainderCount={}
+ remainderCount = {0: -1}
  prefixsum=0
  for i in range(len(nums)):
   prefixsum+= nums[i]
   rem = prefixsum%k
-  if remainderCount.get(rem):
-   if i-remainderCount>=2: return True
+  if rem in remainderCount:
+   if i - remainderCount[rem] >= 2: return True
   else:
    remainderCount[rem]=i
  return False
+nums = [23, 2, 4, 6, 7]
+k = 6
