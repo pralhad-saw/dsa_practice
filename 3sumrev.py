@@ -21,3 +21,4 @@ def solution(nums,target):
             else:
                 right-=1
     return result
+# Complexity: O(n²) time.
