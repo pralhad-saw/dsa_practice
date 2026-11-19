@@ -15,7 +15,12 @@ def solution(nums,k):
  prefixsum=0
  for i in range(len(nums)):
   prefixsum+= nums[i]
-  rem = prefixsum%k
+  # rem = prefixsum%k
+  # edge case for k=0
+  if k != 0:
+    rem = prefixsum % k
+  else:
+    rem = prefixsum
   if rem in remainderCount:
    if i - remainderCount[rem] >= 2: return True
   else:
