@@ -6,10 +6,11 @@ def solution(matrix2D,target):
         mid=left+(right-left)//2
         row=mid//n
         col=mid%n
-        if matrix2D[mid]==target:
+        if matrix2D[row][col]==target:
             return matrix2D[row][col]
-        elif matrix2D[mid]>target:   
+        elif matrix2D[row][col]>target:   
             right= mid-1
         else:
             left= mid+1
     return -1
+# Complexity: O(log(m × n)) time, O(1) space.
