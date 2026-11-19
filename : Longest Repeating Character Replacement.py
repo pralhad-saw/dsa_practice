@@ -13,3 +13,5 @@ left+=1
 maxlen=max(maxlen, right-left+1)
 
 return maxlen
+# Time: O(n)
+# Space: O(1
