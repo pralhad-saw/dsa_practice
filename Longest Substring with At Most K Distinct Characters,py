@@ -1,0 +1,15 @@
+def solution(text,k):
+maxlen=0
+left=0
+count={}
+for right in range(len(text)):
+char=text[right]
+count[char] = count.get(char,0)+1
+while len(count) >k:
+count[text[left]]-=1
+if count[text[left]]==0:
+del count[text[left]]
+left+=1
+maxlen=max(maxlen, right-left+1)
+
+return maxlen
