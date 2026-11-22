@@ -1,5 +1,6 @@
 #bucket sort 
-#O(n) time & space to
+#Time complexity - O(n)
+#Space Complexity - O(n)
 
 from collections import Counter
 from typing import List
