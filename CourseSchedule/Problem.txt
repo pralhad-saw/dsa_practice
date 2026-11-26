@@ -1,0 +1,10 @@
+Course Schedule (LeetCode 207) is simply asking: "Does this directed graph have a cycle?"
+If there is a circular dependency (e.g., Course A requires Course B, and Course B requires Course A), it is impossible to finish all courses, so you return False. Otherwise, you return True.
+
+1. How to Model the Problem
+
+• Nodes: Each course from 0 to numCourses - 1.
+• Directed Edges: A prerequisite pair [course, prereq] means you must take prereq before course (prereq -> course).
+• Data Structures Needed:
+	• Adjacency List (adj): Maps each course to the list of courses that depend on it.
+	• In-Degree Array (indegree): Counts how many prerequisites each course currently has.
